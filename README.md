@@ -5,7 +5,9 @@ To Use
 =========================================
 
 To use this project , do these 3 steps
+
 1. Make sure the POJO structure aligns with your REST API . Example shown is using REST API with following structure
+
 {  
    "status":"OK",
    "payload":[  
@@ -30,12 +32,17 @@ To use this project , do these 3 steps
       }
    ]
 }
+
 2. Update URL in the integration.xml to the right REST API
+
 3. Build the Project using the following command
+
 
     $ mvn clean install
     
+
 Execute
 =========================================    
-run App or as String bott projecct
+run App or as String boot project
+
 
